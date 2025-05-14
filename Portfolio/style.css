@@ -201,6 +201,20 @@ nav ul li a:hover::after {
   margin-bottom: 40px;
 }
 
+.projects p {
+  padding-right: 80px;
+}
+
+a {
+    color: #6ca0f6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* Card Container */
 .project-container {
   display: flex;
@@ -226,9 +240,10 @@ nav ul li a:hover::after {
 
 /* Image */
 .card-image img {
-  width: 350px;
   height: auto;
   border-radius: 10px;
+  max-width: 300px;
+  max-height: 150px;
 }
 
 /* Info Section */

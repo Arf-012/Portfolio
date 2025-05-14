@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  color: #ffffff;
+  background-color: #0d47a1;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #102a43;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg1 {
+  background-image: url("/parallax-website/images-parallax/nasa-Q1p7bh3SHj8-unsplash.jpg");
+}
+
+.bg2 {
+  background-image: url("/parallax-website/images-parallax/Terminal\ Background.jpg");
+}
+
+.bg3 {
+  background-image: url("/parallax-website/images-parallax/Teamwork\ Background.jpg");
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.content h2 {
+  font-size: 36px;
+  color: #ff8a65;
+}
+
+.info-section {
+  padding: 60px 15%;
+  background: rgba(255, 255, 255, 0.05);
+  text-align: center;
+}
+
+.info-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ff6b6b;
+}
+
+.info-section p,
+.info-section ul {
+  font-size: 16px;
+  color: #d1d9e6;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #102a43;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content h2 {
+    font-size: 24px;
+  }
+
+  .info-section {
+    padding: 40px 10%;
+  }
+
+  header {
+    font-size: 24px;
+  }
+
+  .parallax {
+    background-attachment: scroll;
+  }
+}
