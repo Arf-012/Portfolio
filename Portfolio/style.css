@@ -516,6 +516,12 @@ button:hover {
 
   .card-info h2 {
     font-size: 18px;
+    text-align: center;
+  }
+
+  .card-info p {
+    font-size: 14px;
+    padding-right: 0px;
   }
 
   .submit-button {
